@@ -1,0 +1,18 @@
+{
+    "model": "LightGBM",
+    "feature_set": "Original",
+    "threshold": 0.5,
+    "primary_metric": "ROC-AUC",
+    "random_state": 42,
+    "best_validation_roc_auc": 0.7663265593771096,
+    "hyperparameters": {
+        "subsample": 0.85,
+        "reg_lambda": 0.0,
+        "num_leaves": 47,
+        "n_estimators": 700,
+        "min_child_samples": 200,
+        "max_depth": 5,
+        "learning_rate": 0.03,
+        "colsample_bytree": 1.0
+    }
+}
